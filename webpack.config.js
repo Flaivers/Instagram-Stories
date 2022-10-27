@@ -20,3 +20,15 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 };
+
+const CopyPlugin = require("copy-webpack-plugin");
+
+module.exports = {
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: "public", to: "dest" },
+      ],
+    }),
+  ],
+};

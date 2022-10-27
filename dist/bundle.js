@@ -1,1 +1,0 @@
-(()=>{"use strict";new function(e,n){void 0===n&&(n=10),document.querySelector("#news-feed").innerHTML="<h1>".concat(n,"</h1>")}(0,15)})();
